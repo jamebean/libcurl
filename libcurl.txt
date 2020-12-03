@@ -1,0 +1,3 @@
+head = curl_slist_append(NULL, "Content-Type: application/x-www-form-urlencoded; charset=GB2312");
+head = curl_slist_append(head, "Content-Type: application/x-www-form-urlencoded; charset=UTF-8");
+curl_easy_setopt(m_Curl, CURLOPT_HTTPHEADER, head);
